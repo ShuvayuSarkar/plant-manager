@@ -36,7 +36,7 @@ ANGEL_REDIRECT_URL=http://localhost:3000/angelone/callback
 npm run dev
 ```
 
-App runs at [http://localhost:3000](http://localhost:3000)
+App runs at [http://localhost:3000](http://localhost:3000) and will directly land on the Dashboard without authentication.
 
 ## 🔐 Angel One SmartAPI Login Flow
 1. User clicks AngelOne connect button on dashboard/connect.
@@ -97,7 +97,7 @@ npm run dev
 ```
 
 5. **Access the application**
-Open [http://localhost:3000](http://localhost:3000)
+Open [http://localhost:3000](http://localhost:3000) (You will be taken directly to the /dashboard)
 
 ### Development Workflow
 
