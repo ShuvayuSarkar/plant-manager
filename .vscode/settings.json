@@ -1,0 +1,46 @@
+{
+  "postman.settings.dotenv-detection-notification-visibility": false,
+
+  // ✅ USE GPU rendering (REMOVE this if you want acceleration)
+  // Commenting out or removing the line below enables GPU
+  // "disable-hardware-acceleration": true,
+
+  // ✅ File watcher performance boost
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.hg/store/**": true,
+    "**/.dart_tool": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.next/**": true,
+    "**/.turbo/**": true,
+    "**/.git/**": true,
+    "**/.vscode/**": true
+  },
+
+  // ✅ Prevent these folders from showing in search
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.next": true,
+    "**/.turbo": true
+  },
+
+  // ✅ Turn off unused formatting configs (since you're not using ESLint/Prettier)
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {},
+
+  // ✅ Increase JS/TS language server memory
+  "typescript.tsserver.maxTsServerMemory": 8192,
+
+  // ✅ Disable extension background auto-updates (performance gain)
+  "extensions.autoUpdate": false,
+  "update.mode": "manual",
+
+  // ✅ Reduce UI animations (optional tweak)
+  "workbench.tree.indent": 12,
+  "workbench.tree.renderIndentGuides": "none"
+}

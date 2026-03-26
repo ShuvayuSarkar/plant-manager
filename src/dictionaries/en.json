@@ -1,0 +1,27 @@
+{
+    "sidebar": {
+        "title": "Plant Manager",
+        "dashboard": "Plant Overview",
+        "journal": "Production Logs",
+        "review": "Performance Review",
+        "connect": "Machine Settings",
+        "feedback": "Share Feedback"
+    },
+   "navbar": {
+    "connect": "Connect Broker",
+    "notification": "Notifications",
+     "theme":{
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+     },
+     "languages":{
+        "en": "English",
+        "hi": "हिंदी"
+     },
+     "profile":{
+        "profile": "Profile",
+        "logout": "Logout"
+     }
+    }
+}
